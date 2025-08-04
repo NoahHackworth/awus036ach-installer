@@ -39,8 +39,6 @@ Run this in Kali to launch the full interactive menu:
 curl -sSL https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/awus036ach-toolkit.sh | bash
 ```
 
-> Replace `YOUR_USERNAME` with your actual GitHub username.
-
 ---
 
 ## 🧰 Menu Options (from the toolkit)
