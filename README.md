@@ -36,7 +36,7 @@ This toolkit helps you:
 Run this in Kali to launch the full interactive menu:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/awus036ach-installer/main/awus036ach-toolkit.sh | bash
+curl -sSL https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/awus036ach-toolkit.sh | bash
 ```
 
 > Replace `YOUR_USERNAME` with your actual GitHub username.
@@ -61,7 +61,7 @@ curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/awus036ach-installer/m
 ### ▶️ First-Time Setup
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/awus036ach-installer/main/setup-awus036ach.sh | bash
+curl -sSL https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/setup-awus036ach.sh | bash
 ```
 
 This script:
@@ -76,7 +76,7 @@ This script:
 ### 🔁 Reinstall After Update
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/awus036ach-installer/main/reinstall-awus036ach.sh | bash
+curl -sSL https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/reinstall-awus036ach.sh | bash
 ```
 
 Use this any time a Kali Linux update breaks your WiFi driver.
@@ -86,7 +86,7 @@ Use this any time a Kali Linux update breaks your WiFi driver.
 ### 🧪 Test Monitor Mode & Packet Injection
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/awus036ach-installer/main/test-monitor-and-injection.sh | bash
+curl -sSL https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/test-monitor-and-injection.sh | bash
 ```
 
 This script:
@@ -106,10 +106,10 @@ If you want to store the scripts offline for reuse:
 sudo mkdir -p /opt/awus-tools
 cd /opt/awus-tools
 
-sudo curl -O https://raw.githubusercontent.com/YOUR_USERNAME/awus036ach-installer/main/setup-awus036ach.sh
-sudo curl -O https://raw.githubusercontent.com/YOUR_USERNAME/awus036ach-installer/main/reinstall-awus036ach.sh
-sudo curl -O https://raw.githubusercontent.com/YOUR_USERNAME/awus036ach-installer/main/test-monitor-and-injection.sh
-sudo curl -O https://raw.githubusercontent.com/YOUR_USERNAME/awus036ach-installer/main/awus036ach-toolkit.sh
+sudo curl -O https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/setup-awus036ach.sh
+sudo curl -O https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/reinstall-awus036ach.sh
+sudo curl -O https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/test-monitor-and-injection.sh
+sudo curl -O https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/awus036ach-toolkit.sh
 
 sudo chmod +x *.sh
 ```
