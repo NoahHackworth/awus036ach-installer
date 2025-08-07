@@ -36,7 +36,7 @@ This toolkit helps you:
 Run this in Kali to launch the full interactive menu:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/awus036ach-toolkit.sh | bash
+curl -sSL https://raw.githubusercontent.com/NoahHackworth/awus036ach-installer/main/awus036ach-toolkit.sh | sed 's/\r$//' | bash
 ```
 
 ---
