@@ -14,10 +14,20 @@ function reinstall_driver() {
   curl -sSL "$REPO_BASE/reinstall-awus036ach.sh" | bash
 }
 
+#function test_capabilities() {
+ # echo "[*] Running monitor mode and injection test..."
+  #curl -sSL "$REPO_BASE/test-monitor-and-injection.sh" | bash
+#}
+
 function test_capabilities() {
   echo "[*] Running monitor mode and injection test..."
-  curl -sSL "$REPO_BASE/test-monitor-and-injection.sh" | bash
+  tmpfile=$(mktemp)
+  curl -sSL "$REPO_BASE/test-monitor-and-injection.sh" -o "$tmpfile"
+  chmod +x "$tmpfile"
+  bash "$tmpfile"
+  rm "$tmpfile"
 }
+
 
 while true; do
   echo ""
